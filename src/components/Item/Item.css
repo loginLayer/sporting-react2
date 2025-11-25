@@ -1,0 +1,92 @@
+/* --------------------------------------------- */
+/* -------------------- Item ------------------- */
+/* --------------------------------------------- */
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+}
+
+article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+article img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+article h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: hsl(0, 1%, 27%);
+}
+
+article p {
+    flex-grow: 1;
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0;
+}
+
+article button {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background: #B82DA1;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+article button:hover {
+    background: #9A2388;
+}
+
+.art-brand{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #9A2388;
+}
+
+.art-brand p {
+    padding: 0;
+    margin: 0;
+}
+
+.product-price{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #616060;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.product-price{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #616060;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.discount-info{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #9A2388;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,36 @@
+/* --------------------------------------------- */
+/* ------------------ CartItem ----------------- */
+/* --------------------------------------------- */
+.product-detail{
+  display: flex;
+  border-radius: 12px;
+  width: 100%;
+  padding:3rem; 
+  gap: 40px; 
+  max-width: 1200px; 
+  padding: 0rem 0 4rem 4rem;
+  align-items: flex-start;
+}
+
+.cart-item {
+  padding:1rem;
+}
+
+.btn-eliminar-producto {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.9rem;
+  color: var(--color-danger);
+  text-decoration: underline;
+  font-weight: 400; 
+  transition: color 0.15s ease;
+  margin-top: 5px;
+  display: block;
+}
+
+.btn-eliminar-producto:hover {
+  color: #a02020;
+  text-decoration: none;
+}

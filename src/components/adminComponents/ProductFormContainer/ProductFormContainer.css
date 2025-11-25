@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap");
+
+.product-form {
+  font-family: Roboto, sans-serif;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 1.25rem 1.5rem;
+  background: #fff;
+  color: #515a6e;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.product-form h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.6rem;
+  font-family: Roboto, sans-serif;
+  color: #515a6e;
+}
+
+.product-form > div {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.product-form label {
+  font-size: 0.95rem;
+  color: #515a6e;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form input[type="file"],
+.product-form textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #cccaca;
+  border-radius: 8px;
+  background: #cccaca;
+  color: #424242;
+  outline: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.product-form ::placeholder {
+  color: #aaa;
+}
+
+.product-form input[type="text"]:focus,
+.product-form input[type="number"]:focus,
+.product-form input[type="file"]:focus,
+.product-form textarea:focus {
+  border: 1px solid #7b7b7b;
+  background: #cccaca;
+}
+
+.product-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.product-form small {
+  color: #bdbdbd;
+}
+
+.product-form img {
+  display: block;
+  max-width: 220px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  margin-top: 0.35rem;
+}
+
+.btn-admin {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #5aa3ff;
+  color: #0e0e0e;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.05s ease, background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn:hover {
+  background: #79b6ff;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (min-width: 640px) {
+  .product-form .row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap");
+
+.login-container {
+  height: 70vh;
+  padding-top: 2rem;
+  font-family: Roboto, sans-serif;
+}
+
+.login-form {
+  max-width: 320px;
+  margin: 2rem auto;
+  padding: 1.25rem 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: Roboto, sans-serif;
+  color: #515a6e;
+}
+
+.login-form h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.6rem;
+  color: #515a6e;
+}
+
+.login-form > div {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login-form label {
+  font-size: 0.95rem;
+  color: #515a6e;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #cccaca;
+  border-radius: 8px;
+  background: #cccaca;
+  color: #424242;
+  outline: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.login-form ::placeholder {
+  color: #aaa;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+  border: 1px solid #7b7b7b;
+}
+
+.form-title h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.login-button {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #ff7e31, #e62c03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow 0.2s;
+}
+
+@media (min-width: 640px) {
+  .login-form .row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}

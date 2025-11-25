@@ -1,0 +1,24 @@
+/* --------------------------------------------- */
+/* ------------------- Header ------------------ */
+/* --------------------------------------------- */
+header {
+  position: sticky; 
+  top: 0; 
+  z-index: 1000;
+  backdrop-filter: blur(10px); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 5%;
+  margin-bottom: 1.5rem;
+  background-color: rgba(122, 45, 184, 0.503);
+}
+
+header h2 {
+  margin: 0;
+}
+
+header .logo img {
+  width: 200px;
+  display: block;
+}
