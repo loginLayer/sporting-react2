@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useAuthContext } from "../../context/AuthContext/UseAuthContext";
+import { useAuthContext } from "../../context/AuthContext/useAuthContext";
 import { Navigate, useNavigate } from "react-router-dom";
 
 import "./Login.css";
@@ -60,3 +60,4 @@ export const Login = () => {
     </div>
   );
 };
+
